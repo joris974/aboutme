@@ -1,0 +1,261 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: STANLEY - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  	background-color: #ffffff;
+  	font-family: "Open Sans",Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #252627;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans",Arial,Verdana,sans-serif;
+    font-weight: 100;
+     text-decoration: none;
+    color: #252627;
+}
+
+h1 {
+	font-size: 35px;
+	margin: 30px 0;
+}
+
+
+h2.section_title{
+	margin: 20px 0;
+}
+section{
+	padding: 40px 0;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #F3714F;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.2s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.2s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.2s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.2s ease-in, background 0.1s ease-in;
+    transition: color 0.2s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* Helpers */
+
+.mp {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*****    SECTIONS  *****/
+
+/** HEADER **/
+
+.navbar {
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+.navbar-inverse {
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+
+.navbar-inverse {
+	background-color: #F3714F;
+	border-color: #16a085;
+	border:none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #222222;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: transparent;
+}
+
+.progress-bar-theme {
+  background-color: #1abc9c;
+}
+
+
+
+/** SECTION 1 **/
+
+#welcome {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #2A333B;
+	/*background-image: url('../img/binding_dark.png');*/
+	color:#FFF;
+}
+#welcome h1{
+	color:#FFF;
+}
+
+/** SECTION 2 **/
+
+#skills{
+	background-color: #F2F2F2;
+}
+#skills h2{
+	color:#F3714F;
+}
+
+#skills .skillset li{
+	font-size: 25px;
+}
+
+/** SECTION 3 **/
+
+#projects{
+	background-color: #FFF;
+}
+#projects h2{
+	color:#F3714F;
+}
+
+/** SECTION 4 **/
+
+
+
+
+/** FOOTER **/
+
+footer {
+	background-color: #2A333B;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+footer p {
+	color: white;
+}
+
+footer h4 {
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+footer a:hover, footer a:focus{
+	color: #FFF;
+}
+
+
+/** Carousel  **/
+
+.carousel-control.right, .carousel-control.left {
+    background: transparent;
+}
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
+	color:#F3714F;	
+}
+
+.carousel-caption{
+	position: relative;
+	left:auto;
+	right:auto;
+	color: #555555;
+
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    text-shadow: none;
+}
+.carousel-caption h3{
+	color: #252627;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.carousel-caption a.project_link{
+	color: #F3714F;
+}
+.carousel-caption p.description{
+	padding-top: 10px;
+}
+
+.carousel-caption p.technos{
+	font-style: italic;
+}
+
+.carousel-indicators {
+    bottom: auto;
+    left: auto;
+    right:auto;
+    margin: 0 auto;
+    list-style: none outside none;
+    position: relative;
+    text-align: center;
+    width: 60%;
+    z-index: 15;
+}
+.carousel-indicators li {
+	background-color:#CCC;
+}
+.carousel-indicators li.active {
+	background-color:#1ABC9C;
+}
